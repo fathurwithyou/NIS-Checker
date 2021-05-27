@@ -122,14 +122,14 @@ def show_res():
         date_time.config(text= 'Thank you for using this program\nYou access this program at '+x)
 
 def delete():
-    class_x.delete(0, END)
-    absen_x.delete(0, END)
+    class_x.set('')
+    absen_x.set('')
     date_time.config(text="")
     result_print.config(text="")
 
-#
 gui = Tk()
 gui.geometry("450x300")
+gui.iconbitmap('C:\\Users\\hp\\OneDrive\\Dokumen\\Python\\00-Template\\logo.ico')
 gui.title('NIS Checker for 10th graders')
     
 # the label for user_name
