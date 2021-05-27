@@ -127,6 +127,7 @@ def delete():
     date_time.config(text="")
     result_print.config(text="")
 
+#
 gui = Tk()
 gui.geometry("450x300")
 gui.title('NIS Checker for 10th graders')
