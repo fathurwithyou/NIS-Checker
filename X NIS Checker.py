@@ -10,7 +10,7 @@ def show_res():
         kelas_x = class_x.get().lower().split()
         kelas_x = ''.join(kelas_x)
 
-        absen = absen_x.get()
+        absen = int(absen_x.get())
 
         if kelas_x.isdigit() == True:
             result_print.config(text='Result : Please input class correctly! Example : X MIPA 1')
