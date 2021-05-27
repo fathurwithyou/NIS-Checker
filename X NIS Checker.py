@@ -129,7 +129,6 @@ def delete():
 
 gui = Tk()
 gui.geometry("450x300")
-gui.iconbitmap('C:\\Users\\hp\\OneDrive\\Dokumen\\Python\\00-Template\\logo.ico')
 gui.title('NIS Checker for 10th graders')
     
 # the label for user_name
