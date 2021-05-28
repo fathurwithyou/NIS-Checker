@@ -7,7 +7,6 @@ def datetimes():
     date_time.config(text= 'Thank you for using this program\nYou access this program at '+x)
 
 def show_res():
-    global result_print
     kelas = ''.join(kelas_x.get().lower().split())
 
     absen = int(absen_x.get())
